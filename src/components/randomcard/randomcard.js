@@ -3,7 +3,7 @@ import "./randomcard.css";
 
 const randomcard = props => (
   // <div className="container">
-    <div className="randomcard">
+    <div className="card">
       <div className="img-container" dataid={props.id} onClick={() => props.randomRender(props.id)}>
         <img alt={props.name} src={props.image} />
       </div>
